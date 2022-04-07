@@ -24,7 +24,7 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-2
         dockerfile: Dockerfile
-        repository: application
+        context: /home/runner/work/infrastructure-engineer-technical-task/application
     
     - name: Login to Amazon ECR
       id: login-ecr
