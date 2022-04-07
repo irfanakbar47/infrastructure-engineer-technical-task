@@ -57,7 +57,8 @@ Other configuration can be decided by yourself, based on the instance being used
 ## Questions
 
  1. How long did you spend on this assessment in total?\
- _
+ _Task1: 1 hour
+ 
 
  2. What was the most difficult task?\
  _
