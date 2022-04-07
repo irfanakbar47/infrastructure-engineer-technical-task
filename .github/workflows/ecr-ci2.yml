@@ -37,5 +37,5 @@ jobs:
         IMAGE_TAG: ${{ github.sha }}
       run: |
         ls -la
-          cd ./application
+          cd application
           ls -la
