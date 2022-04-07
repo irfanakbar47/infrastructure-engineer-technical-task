@@ -3,7 +3,7 @@ FROM node:latest
 WORKDIR /srv/app
 
 COPY package*.json ./
-RUN nom install
+RUN npm install
 COPY . .
 
 RUN npm run build
