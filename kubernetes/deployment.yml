@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: express
-        image: 444444000111.dkr.ecr.eu-west-2.amazonaws.com/express:latest
+        image: 621400796062.dkr.ecr.us-east-2.amazonaws.com/irfan-task:91b4f72edda305b6ed1ef872ba13598be6d7bad3
         ports:
         - containerPort: 3000
