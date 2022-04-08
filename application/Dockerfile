@@ -1,7 +1,7 @@
 FROM node:latest
 
 WORKDIR /srv/app
-COPY * /srv/app
+COPY ./application /srv/app
 
 RUN npm install
 COPY . .
