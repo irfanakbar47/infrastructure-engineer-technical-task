@@ -49,7 +49,8 @@ jobs:
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
         echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
     - name: Deploy image to Amazon EKS
-      run: 
+      run:
+        kubectl apply -f kubernetes/aws-auth.yaml
         kubectl apply -f kubernetes/deployment.yml
         kubectl apply -f kubernetes/service.yaml
    
