@@ -1,8 +1,8 @@
 FROM node:latest
 
 WORKDIR /srv/app
-COPY ./application /srv/app
 
+//COPY package*.json ./
 RUN npm install
 COPY . .
 
