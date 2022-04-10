@@ -57,7 +57,7 @@ Other configuration can be decided by yourself, based on the instance being used
 ## Questions
 
  1. How long did you spend on this assessment in total?\
- _Task1: 1 hour github action file and 2 hours for deployment to EKS total 3 hours.
+ _Task1 20 minutes. Task2: 1 hour github action file and 2 hours for deployment to EKS. Task3 Terraform code 2 hours. 
  
 
  2. What was the most difficult task?\
