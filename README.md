@@ -57,12 +57,12 @@ Other configuration can be decided by yourself, based on the instance being used
 ## Questions
 
  1. How long did you spend on this assessment in total?\
- _Task1: 1 hour
+ _Task1: 1 hour github action file and 2 hours for deployment to EKS total 3 hours.
  
 
  2. What was the most difficult task?\
- _
+ _Task1 was easy but deploying EKS was bit hard
 
  3. If you had an unlimited amount of time to complete this task, what would you have done differently?\
- _
+ _Oh, absolutely yes. 
 
