@@ -89,13 +89,13 @@ resource "aws_security_group" "allowall" {
         from_port = 22
         to_port = 22
         protocol = "tcp"
-        cidr_blocks = ["107.22.40.20/32"]
+        //cidr_blocks = ["107.22.40.20/32"]
     }
     ingress {
         from_port = 22
         to_port = 22
         protocol = "tcp"
-        cidr_blocks = ["18.215.226.36/32"]
+        //cidr_blocks = ["18.215.226.36/32"]
     }
 
     ingress {
